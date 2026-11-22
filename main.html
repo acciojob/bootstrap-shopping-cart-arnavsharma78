@@ -7,10 +7,129 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+  <div class="container py-5">
+
+  
+    <div class="block-heading text-center mb-5">
+      <h2 class="fw-bold">Shopping Cart</h2>
+      <p class="text-muted">Review your selected items before checkout</p>
+    </div>
+
+  
+    <div class="row g-4">
+
+     
+      <div class="col-lg-8">
+        <div class="bg-white p-4 rounded shadow-sm">
+
+          
+          <div class="product border-bottom pb-4 mb-4">
+            <div class="row align-items-center">
+              <div class="col-md-4 text-center">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80" alt="Wireless Headphones" class="img-fluid rounded">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <h5 class="mb-1">Wireless Headphones</h5>
+                    <p class="text-muted small mb-1">Active noise cancellation, 30h battery</p>
+                    <span class="badge bg-light text-dark border">In Stock</span>
+                  </div>
+                  <div class="col-sm-3 mt-2 mt-sm-0">
+                    <label for="qty-1" class="form-label small text-muted mb-1">Qty</label>
+                    <input id="qty-1" type="number" class="form-control form-control-sm" value="1" min="1">
+                  </div>
+                  <div class="col-sm-3 text-sm-end mt-2 mt-sm-0">
+                    <span class="fw-bold">$120.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="product">
+            <div class="row align-items-center">
+              <div class="col-md-4 text-center">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80" alt="Smart Watch" class="img-fluid rounded">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <h5 class="mb-1">Smart Watch Series 5</h5>
+                    <p class="text-muted small mb-1">GPS, heart rate monitor, water resistant</p>
+                    <span class="badge bg-light text-dark border">In Stock</span>
+                  </div>
+                  <div class="col-sm-3 mt-2 mt-sm-0">
+                    <label for="qty-2" class="form-label small text-muted mb-1">Qty</label>
+                    <input id="qty-2" type="number" class="form-control form-control-sm" value="1" min="1">
+                  </div>
+                  <div class="col-sm-3 text-sm-end mt-2 mt-sm-0">
+                    <span class="fw-bold">$199.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="product border-top pt-4 mt-4">
+            <div class="row align-items-center">
+              <div class="col-md-4 text-center">
+                <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=400&q=80" alt="Charging Cable Kit" class="img-fluid rounded">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <h5 class="mb-1">USB-C Fast Charge Bundle</h5>
+                    <p class="text-muted small mb-1">Braided 2m cable + 30W adapter</p>
+                  </div>
+                  <div class="col-sm-3 mt-2 mt-sm-0">
+                    <label for="qty-3" class="form-label small text-muted mb-1">Qty</label>
+                    <input id="qty-3" type="number" class="form-control form-control-sm" value="1" min="1">
+                  </div>
+                  <div class="col-sm-3 text-sm-end mt-2 mt-sm-0">
+                    <span class="fw-bold">$29.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4">
+        <div class="summary rounded shadow-sm">
+          <h3 class="h4 fw-bold mb-4">Summary</h3>
+
+          <div class="summary-item d-flex justify-content-between">
+            <span>Subtotal</span>
+            <span>$348.00</span>
+          </div>
+
+          <div class="summary-item d-flex justify-content-between">
+            <span>Shipping</span>
+            <span>Free</span>
+          </div>
+
+          <div class="summary-item d-flex justify-content-between fw-bold">
+            <span>Total</span>
+            <span>$348.00</span>
+          </div>
+
+          <button type="button" class="btn btn-primary w-100 checkout-btn mt-3">
+            Checkout
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
